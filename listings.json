@@ -1,0 +1,41 @@
+{
+    "listings": [
+        {
+            "name": "Beautiful STratford Condo",
+            "type": "rent",
+            "userRef": "ID OF A USER",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "parking": true,
+            "furnished": true,
+            "offer": true,
+            "regularPrice": 2500,
+            "discountedPrice": 2000,
+            "location": "8601 West Peachtree St Stratford, CT 06614",
+            "geolocation": {
+                "lat": "41.205590",
+                "lng": "-73.250530"
+            },
+            "imageUrls": [],
+            "timestamp": "00:00:00"
+        },
+        {
+            "name": "Flowery Branch Beauty",
+            "type": "sale",
+            "userRef": "ID OF A USER",
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "parking": true,
+            "furnished": false,
+            "offer": false,
+            "regularPrice": 650000,
+            "location": "517 High Ridge St Flowery Branch, GA 30542",
+            "geolocation": {
+                "lat": "34.1851",
+                "lng": "-83.9252"
+            },
+            "imageUrls": [],
+            "timestamp": "00:00:00"
+        }
+    ]
+}
