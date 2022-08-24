@@ -356,7 +356,6 @@ function CreateListing() {
                     id='latitude'
                     value={latitude}
                     onChange={onMutate}
-                    required
                     />
                 </div>
                 <div>
@@ -367,7 +366,6 @@ function CreateListing() {
                     id='longitude'
                     value={longitude}
                     onChange={onMutate}
-                    required
                     />
                 </div>
                 </div>

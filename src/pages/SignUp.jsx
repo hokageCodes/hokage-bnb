@@ -99,7 +99,7 @@ function SignUp() {
                                     onClick={() => setShowPassword((prevState) => !prevState)}
                                 />
                             </div>
-                            <Link to='/forgot-password' className='forgotPasswordLink'>
+                            <Link to='/forgotpassword' className='forgotPasswordLink'>
                                 Forgot Password
                             </Link>
 
@@ -111,7 +111,7 @@ function SignUp() {
                             </div>
                     </form>
 
-                    <OAuth />
+                    <OAuth className='openAuth'/>
 
                     <Link to='/signin' className='registerLink'>Sign In Instead</Link>
                 </main>
